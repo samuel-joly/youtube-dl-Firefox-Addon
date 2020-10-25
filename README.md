@@ -17,7 +17,7 @@ You need to have __youtube-dl__ installed on your system.
 
 ### Usage
 
-You click on the plugin icon in top right corner then you can choose to download the video in the current youtube page you are.<br>
+You click on the plugin icon in top right corner then you can choose to download the video or the playlist as webm or mp3 in the current youtube page.<br>
 You can download __as a mp4 or mp3__ format.<br>
 You can __download playlist__ too if you'r on a playlist page.<br>
 When you have clicked, your download is starting.<br>
