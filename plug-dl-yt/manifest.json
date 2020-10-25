@@ -1,0 +1,35 @@
+{
+    
+    "manifest_version"  : 2,
+    "name"              : "YoutubeDl",
+    "version"           : "1.0",
+    "description"       : "Download youtube content easily",
+
+    "icons"             : {     "48" : "logo.png"       },
+
+
+    "content_scripts"   : [
+        {
+            "matches"   : ["*://*.youtube.com/*"],
+            "js"        : ["script.js"]
+        }
+    ],
+    
+    "background" : {
+        "scripts"   :   ["youtubeDl.js"]
+    },
+
+
+    "browser_action"    : {
+        "default_icon"  : "logo38.png",
+        "defautl_title" : "Download YT",
+        "default_popup" : "popup.html"
+    }, 
+
+    "permissions"       : [
+        "<all_urls>",
+        "tabs",
+        "activeTab"
+    ]
+
+}
